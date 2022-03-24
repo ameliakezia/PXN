@@ -1,0 +1,133 @@
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.bg-header-dark {
+  background-color: black;
+}
+.btn-header {
+  border-radius: 0px;
+  color: #00ff66;
+}
+
+.btn-header:hover {
+  background-color: #003314;
+  color: #00ff66;
+}
+
+.btn-showcase {
+  border: 2px solid #00ff66;
+  color: #00ff66;
+}
+
+.btn-showcase:hover {
+  background-color: #003314;
+  color: #00ff66;
+}
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.showcase-content {
+  text-align: center;
+  margin-top: 50vh;
+}
+
+#about {
+  background-image: url("Assets/banner.gif");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  color: #00ff66;
+}
+
+#team {
+  padding-top: 20px;
+  background-color: #181818;
+}
+
+#team .nav-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 10px;
+  margin-right: 2rem;
+}
+
+#team .nav-link:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  margin-right: 2rem;
+}
+
+#team a.active {
+  color: rgba(0, 0, 0, 0.7) !important;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-team {
+  border-radius: 0px;
+  color: #00ff66;
+}
+
+.btn-team:hover {
+  background-color: #003314;
+  color: #00ff66;
+}
+
+#team-tab-content {
+  background-color: #181818;
+  margin-top: 20px;
+}
+
+#team-tab-content .card {
+  border: 0px;
+}
+
+#team-tab-content .card-body {
+  padding: 0.5rem 1rem;
+}
+
+#team-tab-content .card-title {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#team-tab-content .card-text {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: 0px;
+}
+
+#team-tab-content a {
+  font-size: 10px;
+  color: inherit;
+}
+
+#team-tab-content a i {
+  margin-right: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
