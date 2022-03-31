@@ -83,6 +83,7 @@ video {
 #team-tab-content {
   background-color: #181818;
   margin-top: 20px;
+  padding-bottom: 5px;
 }
 
 #team-tab-content .card {
@@ -111,6 +112,15 @@ video {
 
 #team-tab-content a i {
   margin-right: 0.5rem;
+}
+
+#roadmap {
+  background-color: black;
+  text-align: center;
+  vertical-align: center;
+  background-image: url("Assets/matrix-background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
