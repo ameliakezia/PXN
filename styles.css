@@ -1,5 +1,6 @@
 body {
   font-family: "Space Mono", monospace;
+  background-color: black;
 }
 
 .bg-header-dark {
@@ -140,4 +141,29 @@ video {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+#factions-intro {
+  background-image: url("Assets/factions.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#factions-list img {
+  object-fit: fill;
+  width: 100%;
+}
+
+#guardians-faction {
+  color: rgb(2, 2, 129);
+}
+
+#watchers-faction {
+  color: rgb(126, 3, 3);
+}
+
+#waywards-faction {
+  color: #018b39;
+  padding-top: 0px !important;
 }
